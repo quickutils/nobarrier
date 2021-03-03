@@ -30,8 +30,8 @@ create_service_file() {
 }
 
 enable_service() {
-	systemctl enable $PWD/build/nobarrier.service
-	systemctl start $PWD/build/nobarrier.service
+	sudo systemctl enable $PWD/build/nobarrier.service
+	sudo systemctl start nobarrier
 }
 
 main $*

@@ -8,5 +8,5 @@ You just need to run the following script once and everytime your PC boot it wil
 ## Linux
 
 ```bash
-sudo ./setup-nobarrier-linux.sh
+bash ./setup-nobarrier-linux.sh
 ```
