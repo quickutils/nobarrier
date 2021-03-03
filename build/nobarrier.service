@@ -1,0 +1,13 @@
+[Unit]
+Description=Auto detect and connect to barrier server
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=1
+User=thecarisma
+ExecStart=/c/Users/thecarisma/Documents/OPEN_SOURCE/QUICK_UTILS/nobarrier/build/nobarrier thecarisma
+
+[Install]
+WantedBy=multi-user.target
