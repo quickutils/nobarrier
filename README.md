@@ -3,6 +3,8 @@ Auto detect the ip where barrier is running and then connect. Also contains Mac,
 
 # Usage
 
+You just need to run the following script once and everytime your PC boot it will find the barrier server and auto connect, well for my network.
+
 ## Linux
 
 ```bash
